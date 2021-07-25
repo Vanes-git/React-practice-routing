@@ -7,7 +7,7 @@ const QuoteList = (props) => {
   return (
     <Fragment>
       <ul className={classes.list}>
-        {props.quotes.map((quote) => (
+        {props.qoutes.map((quote) => (
           <QuoteItem
             key={quote.id}
             id={quote.id}
