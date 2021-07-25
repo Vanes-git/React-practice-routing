@@ -1,15 +1,15 @@
 import React from 'react';
 
-import QouteList from '../components/quotes/QuoteList';
+import QuoteList from '../components/quotes/QuoteList';
 
-const DUMMY_QOUTES = [
-    {id: 'q1', quthor: 'Max', text: 'Learning React is fun'},
-    {id: 'q2', quthor: 'Larvian', text: 'Learning React is great'},
+const DUMMY_QUOTES = [
+    {id: 'q1', author: 'Max', text: 'Learning React is fun'},
+    {id: 'q2', author: 'Larvian', text: 'Learning React is great'},
 ];
 
 const AllQuotes = () => {
     return (
-        <QouteList qoutes={DUMMY_QOUTES}/>
+        <QuoteList quotes={DUMMY_QUOTES}/>
     );
 };
 
