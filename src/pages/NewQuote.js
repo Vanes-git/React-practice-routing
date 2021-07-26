@@ -6,13 +6,13 @@ import QuoteForm from '../components/quotes/QuoteForm';
 const NewQuote = () => {
     const history = useHistory();
 
-    const addQouteHandler = (quoteData) => {
+    const addQuoteHandler = (quoteData) => {
         console.log(quoteData);
 
         history.push('/quotes');
     };
 
-    return <QuoteForm onAddForm={addQouteHandler} />;
+    return <QuoteForm onAddQuote={addQuoteHandler} />;
 };
 
 export default NewQuote;
